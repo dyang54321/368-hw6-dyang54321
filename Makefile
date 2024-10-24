@@ -14,7 +14,7 @@ a6: $(OBJS)
 	$(GCC) $(TESTFLAGS) -c $*.c
 
 testmemory: a6
-	$(VAL) ./a6
+	$(VAL) ./a6 
 
 test: a6
 	./a6
